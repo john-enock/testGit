@@ -1,0 +1,24 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "c'est pour apprendre a utiliser node js et git",
+  "main": "index.html",
+  "scripts": {
+    "start":"npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/john-enock/testGit.git"
+  },
+  "author": "Akpaki Enock John",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/john-enock/testGit/issues"
+  },
+  "homepage": "https://github.com/john-enock/testGit#readme",
+  "dependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
